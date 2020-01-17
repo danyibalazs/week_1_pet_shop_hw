@@ -11,6 +11,5 @@ def add_or_remove_cash(pet_shop, amount)
 end
 
 def pets_sold(pet_shop)
-  pet_shop[:pets] = []
-  return pet_shop[:pets].length
+  return pet_shop[:admin][:pets_sold]
 end
